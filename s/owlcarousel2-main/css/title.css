@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Condensed:ital@1&family=Ubuntu:ital,wght@0,700;1,400;1,500&display=swap');
+
+
+
+
+
+
+
+
+
+
+.people {
+    padding-bottom: 100px;
+  }
+
+  .catalog-item {
+    width: 300px;
+    min-height: 250px;
+    border: 2px solid #e8e8e8;
+    padding: 20px 20px 26px 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    text-shadow: 1px 4px 5px #69a06e
+  }
+  .catalog-item__img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 200px;
+  }
+  .catalog-item__subtitle {
+    margin-top: 20px;
+    color: #0d0d0d;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .catalog-item__name {
+    margin-top: 16px;
+    color: #474444;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+   .catalog-item__link{ 
+    display: block;
+    margin-top: 17px;
+    margin-left: 50px;
+    color:white;
+    font-size: 13px;
+    font-weight: 600;
+    width: 200px;
+    height: 40px;
+    padding-top: 23px;
+    border-radius: 40px;
+    background: #69a06e;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 13px;
+  }
+  .catalog-item__link:hover {
+    color: #d0d0d0;
+    transition: 1s ease-in-out;
+  }
+  .catalog-item hr {
+    background-color: #e8e8e8;
+    margin-top: 19px;
+    margin-bottom: 21px;
+    border-bottom: none;
+  }
+
+ 
+  .wrap{
+    position: relative;
+    width: 1640px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width:1670px) {
+    .catalog-item{
+        width: 250px;
+    }
+  }
+@media(max-width:1400px){
+    .catalog-item__link{
+        font-size: 12px;
+        font-weight: 400;
+        width: 100px;
+        padding-top: 5px;
+        height: 20px;
+        transform: translateX(20px);
+    }
+}
+@media(max-width:1658px){
+  .catalog-item__link{
+    transform: translateX(-25px);
+  }
+}
+@media(max-width:1465px){
+  .catalog-item__link{
+    transform: translateX(25px);
+  }
+}
+
+@media(max-width:1150px){
+  .catalog-item{
+    width: 200px;
+    padding: 12px 12px 18px 15px;
+    
+  }
+  .catalog-item__link{
+    transform: translateX(-2px);
+  }
+  .wrapper2,.wrapper,.wrap{
+    max-width: 650px;
+  }
+}
+
+@media(max-width:900px){
+  .wrapper2{
+    max-width: 500px;
+  }
+  .wrap{
+    max-width: 500px;
+  }
+  .wrapper{
+    max-width: 500px;
+  }
+  .wrap3{
+    max-width: 500px;
+  }
+}
+
+
+@media(max-width:915px){
+  .wrapper2{
+    max-width: 550px;
+  }
+  .wrap{
+    max-width: 550px;
+  }
+  .wrapper{
+    max-width: 550px;
+  }
+}
+@media(max-width:725px){
+  .wrapper2{
+    max-width: 500px;
+  }
+  .wrap{
+    max-width: 500px;
+  }
+  .wrapper{
+    max-width: 500px;
+  }
+}
+
+@media(max-width:680px){
+  .wrapper2{
+    max-width: 400px;
+  }
+  .wrap{
+    max-width: 400px;
+  }
+  .wrapper{
+    max-width: 400px;
+  }
+}
+
+@media(max-width:600px){
+  .wrapper2{
+    max-width: 390px;
+  }
+  .wrap{
+    max-width: 390px;
+  }
+  .wrapper{
+    max-width: 390px;
+  }
+}
+
+
+@media(max-width:742px){
+    .catalog-item{
+      width: 180px;
+    }
+    .catalog-item__link{
+      transform: translateX(-12px);
+    }
+    .catalog-item__img{
+      height: 120px;
+    }
+}
+@media(max-width:729px){
+  .catalog-item{
+    width: 160px;
+  }
+  .catalog-item__link{
+    transform: translateX(-18px);
+  }
+}
+@media(max-width:570px){
+  .wrapper2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-item{
+    font-size: 4px;
+  }
+  .wrapper2{
+    max-width: 340px;
+  }
+  .wrap{
+    max-width: 340px;
+  }
+  .wrapper{
+    max-width: 340px;
+  }
+}
+
+
+@media(max-width:570px){
+  .wrapper2{
+    max-width: 200px;
+  }
+  .wrap{
+    max-width: 300px;
+    text-align: center;
+  }
+  .wrapper{
+    max-width: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
+  
+  
+  
